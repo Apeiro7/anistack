@@ -10,10 +10,11 @@ interface BeforeInstallPromptEvent extends Event {
 export default function PWAInstallBanner() {
   const { theme } = useTheme();
   const dark = theme === 'dark';
+  
   const [deferredPrompt, setDeferredPrompt] = useState<BeforeInstallPromptEvent | null>(null);
-  const [dismissed, setDismissed] = useState(() => {
-    return localStorage.getItem('anistack-pwa-dismissed') === 'true';
-  });
+  
+  // Removed localStorage initialization, starts false by default every time the app loads
+  const [dismissed, setDismissed] = useState(false);
 
   useEffect(() => {
     const handler = (e: Event) => {
@@ -35,8 +36,8 @@ export default function PWAInstallBanner() {
   };
 
   const handleDismiss = () => {
+    // Only updates state in real-time for the current session, no local storage saves
     setDismissed(true);
-    localStorage.setItem('anistack-pwa-dismissed', 'true');
   };
 
   if (!deferredPrompt || dismissed) return null;
