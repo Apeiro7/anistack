@@ -135,7 +135,7 @@ export default function VideoPlayer({
         {/* Main Content */}
         <div className="flex flex-col lg:flex-row flex-1 overflow-hidden min-h-0">
           {/* Video Area */}
-          <div className="flex flex-col flex-1 min-w-0 min-h-0">
+          <div className="flex flex-col flex-none lg:flex-1 min-w-0 min-h-0">
             {/* Embed */}
             <div className="relative w-full bg-black" style={{ paddingBottom: 'min(56.25%, 420px)', maxHeight: '420px' }}>
               <div className="absolute inset-0">
@@ -187,7 +187,7 @@ export default function VideoPlayer({
             </div>
 
             {/* Info Below Player */}
-            <div className={`px-4 py-3 flex-shrink-0 overflow-y-auto flex-1
+            <div className={`px-4 py-3 flex-none lg:flex-1 lg:overflow-y-auto
               ${dark ? 'bg-[#0d0d1a]' : 'bg-white'}`}>
               <div className="flex flex-wrap items-center gap-2 mb-2">
                 {rating && (
@@ -219,7 +219,7 @@ export default function VideoPlayer({
 
           {/* Episode List Sidebar */}
           {showEpisodeList && (
-            <div className={`w-full lg:w-80 flex flex-col border-t lg:border-t-0 lg:border-l flex-shrink-0
+            <div className={`w-full lg:w-80 flex flex-col border-t lg:border-t-0 lg:border-l flex-1 lg:flex-none min-h-0
               ${dark ? 'border-cyan-500/20 bg-[#09090f]' : 'border-gray-200 bg-gray-50'}`}
               style={{ maxHeight: '420px' }}>
 
