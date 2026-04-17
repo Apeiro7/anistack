@@ -507,7 +507,7 @@ export const toolsData: Tool[] = [
     name: 'ChatGPT',
     description: 'OpenAI\'s powerful AI assistant for writing, coding, analysis, and more.',
     url: 'https://chat.openai.com',
-    icon: 'https://upload.wikimedia.org/wikipedia/commons/1/13/ChatGPT-Logo.png',
+    icon: 'https://thumbs.dreamstime.com/b/minsk-belarus-openai-chatgpt-logo-artifical-chatbot-system-chat-bot-button-web-app-phone-icon-symbol-editorial-vector-275376231.jpg',
     category: 'AI',
     tags: ['ai', 'chatbot', 'writing', 'coding'],
     free: true,
