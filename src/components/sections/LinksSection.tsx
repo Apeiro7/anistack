@@ -127,10 +127,13 @@ function LinkCard({ link, dark, colors }: { link: typeof linksData[0]; dark: boo
         ${dark
           ? 'bg-[#0d0d1a] border-white/5 hover:border-teal-500/20 hover:shadow-[0_0_15px_rgba(0,200,150,0.07)]'
           : 'bg-white border-gray-200 hover:border-teal-300 hover:shadow-md'}`}>
-      <div className={`w-10 h-10 rounded-xl flex items-center justify-center text-xl flex-shrink-0
-        ${dark ? 'bg-white/5' : 'bg-gray-100'}`}>
-        {link.icon}
+          
+      {/* UPDATED ICON RENDERER */}
+      <div className={`w-10 h-10 rounded-xl flex items-center justify-center p-2 flex-shrink-0
+        ${dark ? 'bg-white/5' : 'bg-white border border-gray-100'}`}>
+        <img src={link.icon} alt={`${link.name} logo`} className="w-full h-full object-contain" />
       </div>
+
       <div className="flex-1 min-w-0">
         <div className="flex items-start justify-between gap-2">
           <h4 className={`font-bold text-sm ${dark ? 'text-white group-hover:text-teal-300' : 'text-gray-900 group-hover:text-teal-700'} transition-colors`}
