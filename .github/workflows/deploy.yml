@@ -2,8 +2,9 @@ name: Deploy Vite React App
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
@@ -18,7 +19,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20 # Updated to 20 for modern Vite/React compatibility
 
       - run: npm install
       - run: npm run build
@@ -30,6 +31,13 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
-
+    
+    # This environment block is the standard best practice for GitHub Pages
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+      
     steps:
-      - uses: actions/deploy-pages@v4
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
