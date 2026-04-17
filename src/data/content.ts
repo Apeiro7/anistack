@@ -598,4 +598,5 @@ export const linksData: Link[] = [
   { id: 'l10', name: 'AniList', description: 'Social cataloging website for anime.', url: 'https://anilist.co', icon: 'https://cdn.simpleicons.org/anilist/02A9FF', category: 'Anime' },
   { id: 'l11', name: 'MyAnimeList', description: 'Largest online anime and manga database.', url: 'https://myanimelist.net', icon: 'https://cdn.simpleicons.org/myanimelist/2E51A2', category: 'Anime' },
   { id: 'l12', name: 'Crunchyroll', description: 'The world\'s most popular anime streaming service.', url: 'https://crunchyroll.com', icon: 'https://cdn.simpleicons.org/crunchyroll/F47521', category: 'Anime' },
+  { id: 'l13', name: 'MoviesMod', description: 'Download the latest Hollywood and Bollywood movies in various resolutions including 480p, 720p, and 1080p and 4K, choose from list below.', url: 'https://modlist.in/', icon: 'https://modlist.in/favicont.png', category: 'Movies' },
 ];
