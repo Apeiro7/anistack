@@ -37,28 +37,25 @@ export default function Navbar({ activeSection, onSectionChange }: NavbarProps) 
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-14">
 
-          {/* Logo — clickable → home */}
+          {/* Logo — Animated and clickable → home */}
           <button
             onClick={() => handleNav('home')}
-            className="flex items-center gap-2.5 group cursor-pointer select-none focus:outline-none"
+            className="flex items-center gap-3 group cursor-pointer select-none focus:outline-none"
           >
-            <div className="relative w-8 h-8 flex-shrink-0">
-              <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-cyan-500 to-purple-600 opacity-80 group-hover:opacity-100 transition-opacity" />
-              <div className="absolute inset-0 rounded-lg flex items-center justify-center">
-                <Zap className="w-4 h-4 text-white" />
-              </div>
-              <div className="absolute inset-0 rounded-lg"
-                style={{ boxShadow: '0 0 12px rgba(0,212,255,0.5)' }} />
+            {/* Bouncing Lightning Icon */}
+            <div className="animate-float-bounce w-9 h-9 rounded-xl bg-gradient-to-br from-cyan-400 via-blue-500 to-purple-600 flex items-center justify-center shadow-[0_0_15px_rgba(0,212,255,0.3)] group-hover:shadow-[0_0_25px_rgba(0,212,255,0.5)] transition-shadow">
+              <Zap className="w-5 h-5 text-white" fill="currentColor" strokeWidth={1.5} />
             </div>
-            <div className="flex flex-col leading-none">
-              <span
-                className={`text-lg font-black tracking-widest group-hover:opacity-80 transition-opacity
-                  ${dark ? 'text-white' : 'text-gray-900'}`}
-                style={{ fontFamily: "'Orbitron', sans-serif", letterSpacing: '0.12em' }}>
-                ANI<span className="text-cyan-400">STACK</span>
+
+            {/* Animated Text Block */}
+            <div className="flex flex-col items-start leading-none mt-0.5">
+              <span className={`font-black tracking-wider text-[20px] leading-none animate-shine-text
+                ${dark ? 'bg-gradient-to-r from-cyan-400 via-white to-cyan-400 text-transparent bg-clip-text' : 'bg-gradient-to-r from-cyan-600 via-blue-800 to-cyan-600 text-transparent bg-clip-text'}`}
+                style={{ fontFamily: "'Orbitron', sans-serif" }}>
+                ANISTACK
               </span>
-              <span className={`text-[8px] tracking-[0.3em] font-semibold
-                ${dark ? 'text-purple-400' : 'text-purple-600'}`}
+              <span className={`text-[8.5px] font-bold uppercase animate-tracking-pulse mt-1
+                ${dark ? 'text-purple-400' : 'text-purple-700'}`}
                 style={{ fontFamily: "'Rajdhani', sans-serif" }}>
                 YOUR DIGITAL VAULT
               </span>
