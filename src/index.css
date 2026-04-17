@@ -135,3 +135,33 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   width: 100%;
   height: 100%;
 }
+/* Add to bottom of src/index.css */
+
+/* 1. Bottom-up bounce for the Lightning Icon */
+@keyframes float-bounce {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+}
+.animate-float-bounce {
+  animation: float-bounce 2.5s ease-in-out infinite;
+}
+
+/* 2. Seamless moving gradient for ANISTACK text */
+@keyframes shine-text {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.animate-shine-text {
+  background-size: 200% auto;
+  animation: shine-text 4s linear infinite;
+}
+
+/* 3. Letter-spacing pulse for YOUR DIGITAL VAULT */
+@keyframes tracking-pulse {
+  0%, 100% { letter-spacing: 0.15em; opacity: 0.8; }
+  50% { letter-spacing: 0.25em; opacity: 1; }
+}
+.animate-tracking-pulse {
+  animation: tracking-pulse 3s ease-in-out infinite;
+}
