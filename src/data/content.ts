@@ -417,7 +417,7 @@ export const animeData: AnimeEntry[] = [
     title: 'Ben 10 Alien Force',
     description: 'Five years later, 15-year-old Ben Tennyson chooses to once again put on the Omnitrix and discovers that it has recalibrated and can now transform him into 10 brand new aliens. Joined by his super-powered cousin Gwen Tennyson and his equally powerful former enemy Kevin Levin, Ben is on a mission to find his missing Grandpa Max. In order to save his Grandpa, Ben must defeat the evil DNAliens, a powerful alien race intent on destroying the galaxy, starting with planet Earth.',
     thumbnail: 'https://image.tmdb.org/t/p/w185/sEocAE3h5iu8CUNhdx1gHan7QJf.jpg',
-    genre: ['Anime'],
+    genre: ['Cartoon Network'],
     year: 2008,
     rating: 10,
     status: 'completed',
