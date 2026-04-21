@@ -533,7 +533,7 @@ export const animeData: AnimeEntry[] = [
             id: 'e1',
             title: 'Darkstar Rising',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9lQnQ5SlpDX1QifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9LMC0xNnAxOHQifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/469/00.webp',
+            thumbnail: 'https://img.watchanimeworld.in/images/469/01.webp',
             duration: '24:00'
           },
           {
@@ -632,7 +632,7 @@ export const animeData: AnimeEntry[] = [
             id: 'e1',
             title: 'Vengeance of Vilgax, Part 1',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9Sbkt1QVEtdTgifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC96MnI5Ukpvc0UifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/468/00.webp',
+            thumbnail: 'https://img.watchanimeworld.in/images/468/01.webp',
             duration: '24:00'
           },
           {
