@@ -36,7 +36,8 @@ export default function VideoPlayer({
   const [activeEpisode, setActiveEpisode] = useState<VideoEpisode>(seasons[0].episodes[0]);
   const [showEpisodeList, setShowEpisodeList] = useState(true);
   
-  const [viewMode, setViewMode] = useState<'list' | 'grid'>('grid'); // Defaulted to grid/thumbnail view
+  // Defaulted to 'grid' to show off your landscape thumbnails immediately
+  const [viewMode, setViewMode] = useState<'list' | 'grid'>('grid');
 
   // Lock body scroll when modal is open
   useEffect(() => {
@@ -133,14 +134,14 @@ export default function VideoPlayer({
           </div>
         </div>
 
-        {/* Content Body */}
+        {/* Content Body - PERFECT SCROLL LOGIC HERE */}
         <div className="flex flex-col lg:flex-row flex-1 min-h-0 overflow-y-auto lg:overflow-hidden">
           
           {/* Left Column: Video Area & Description */}
           <div className="flex flex-col flex-none lg:flex-1 lg:min-w-0 lg:overflow-y-auto pb-4 lg:pb-0" style={{ scrollbarWidth: 'thin' }}>
             
             {/* Video Player */}
-            <div className="w-full bg-black flex-shrink-0 flex items-center justify-center overflow-hidden aspect-video lg:aspect-auto lg:h-[45vh] xl:h-[55vh]">
+            <div className="w-full bg-black flex-shrink-0 aspect-video lg:aspect-auto lg:h-[45vh] xl:h-[55vh]">
               <iframe
                 key={activeEpisode.id}
                 src={activeEpisode.embedUrl}
@@ -217,9 +218,9 @@ export default function VideoPlayer({
             </div>
           </div>
 
-          {/* Right Column: Episode List Sidebar - Wider to accommodate large thumbnails */}
+          {/* Right Column: Episode List Sidebar */}
           {showEpisodeList && (
-            <div className={`w-full lg:w-96 flex flex-col flex-none lg:flex-shrink-0 lg:border-l lg:h-full lg:overflow-hidden
+            <div className={`w-full lg:w-[22rem] xl:w-96 flex flex-col flex-none lg:flex-shrink-0 lg:border-l lg:h-full lg:overflow-hidden
               ${dark ? 'border-cyan-500/20 bg-[#09090f]' : 'border-gray-200 bg-gray-50'}`}>
 
               {/* Season Selector & View Toggle */}
@@ -266,10 +267,10 @@ export default function VideoPlayer({
                 </div>
               </div>
 
-              {/* Episode List / Grid Area */}
-              <div className="flex-none lg:flex-1 lg:overflow-y-auto lg:min-h-0 pb-6 lg:pb-0" style={{ scrollbarWidth: 'thin' }}>
+              {/* Episode List Area */}
+              <div className="flex-none lg:flex-1 lg:overflow-y-auto min-h-0 pb-6 lg:pb-0" style={{ scrollbarWidth: 'thin' }}>
                 
-                {/* CHANGED HERE: One episode per row layout for thumbnails using flex-col gap-3 */}
+                {/* 1-PER-ROW LANDSCAPE THUMBNAILS (flex-col gap-3) */}
                 <div className={`p-3 ${viewMode === 'grid' ? 'flex flex-col gap-3' : 'space-y-1'}`}>
                   {activeSeason.episodes.map((episode, idx) => {
                     const isActive = episode.id === activeEpisode.id;
@@ -284,7 +285,7 @@ export default function VideoPlayer({
                               ? dark ? 'border-cyan-500 shadow-[0_0_15px_rgba(0,212,255,0.2)]' : 'border-blue-500 shadow-md ring-2 ring-blue-500/20' 
                               : dark ? 'border-gray-800 hover:border-cyan-500/50' : 'border-gray-200 hover:border-blue-300'}`}
                         >
-                          {/* Aspect Video enforces the 16:9 Landscape ratio perfectly */}
+                          {/* aspect-video enforces a clean landscape 16:9 box */}
                           <div className="relative aspect-video w-full bg-black">
                             <img 
                               src={episode.thumbnail || thumbnail} 
@@ -299,8 +300,8 @@ export default function VideoPlayer({
                             </div>
                             {isActive && (
                               <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-                                <div className={`w-10 h-10 rounded-full flex items-center justify-center ${dark ? 'bg-cyan-500/90' : 'bg-blue-600/90'}`}>
-                                  <Play className="w-5 h-5 text-white fill-current ml-0.5" />
+                                <div className={`w-12 h-12 rounded-full flex items-center justify-center ${dark ? 'bg-cyan-500/90' : 'bg-blue-600/90'}`}>
+                                  <Play className="w-6 h-6 text-white fill-current ml-1" />
                                 </div>
                               </div>
                             )}
@@ -314,6 +315,7 @@ export default function VideoPlayer({
                       );
                     }
 
+                    // Standard List View
                     return (
                       <button
                         key={episode.id}
