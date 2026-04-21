@@ -450,7 +450,7 @@ export const animeData: AnimeEntry[] = [
           },
           {
             id: 'e4',
-            title: 'Kevin's Big Score',
+            title: 'Kevins Big Score',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9VWVpEQ3J1TWMifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9JVEs3UFI1WG8ifV0%3D',
             duration: '24:00'
           },
@@ -498,7 +498,7 @@ export const animeData: AnimeEntry[] = [
           },
           {
             id: 'e12',
-            title: 'Plumbers' Helpers',
+            title: 'Plumbers Helpers',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC8wdFVGMXBXV3YifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC90aHYxd1dISUsifV0%3D',
             duration: '24:00'
           },
