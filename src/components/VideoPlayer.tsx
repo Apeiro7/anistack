@@ -36,7 +36,7 @@ export default function VideoPlayer({
   const [activeEpisode, setActiveEpisode] = useState<VideoEpisode>(seasons[0].episodes[0]);
   const [showEpisodeList, setShowEpisodeList] = useState(true);
   
-  const [viewMode, setViewMode] = useState<'list' | 'grid'>('grid'); // Defaulted to grid view to show the new thumbnails
+  const [viewMode, setViewMode] = useState<'list' | 'grid'>('grid');
 
   // Lock body scroll when modal is open
   useEffect(() => {
@@ -136,8 +136,8 @@ export default function VideoPlayer({
         {/* Content Body */}
         <div className="flex flex-col lg:flex-row flex-1 min-h-0 overflow-y-auto lg:overflow-hidden">
           
-          {/* Left Column: Video Area & Description */}
-          <div className="flex flex-col flex-none lg:flex-1 lg:min-w-0 lg:overflow-y-auto pb-4 lg:pb-0">
+          {/* Left Column: Video Area & Description (ADDED lg:min-h-0 HERE to fix flexbox bug) */}
+          <div className="flex flex-col flex-none lg:flex-1 lg:min-w-0 lg:min-h-0 lg:overflow-y-auto pb-4 lg:pb-0" style={{ scrollbarWidth: 'thin' }}>
             
             {/* Video Player */}
             <div className="w-full bg-black flex-shrink-0 aspect-video sm:max-h-[60vh] lg:max-h-[65vh]">
@@ -217,9 +217,9 @@ export default function VideoPlayer({
             </div>
           </div>
 
-          {/* Right Column: Episode List Sidebar - WIDENED to w-96 to fit large thumbnails properly */}
+          {/* Right Column: Episode List Sidebar (ADDED lg:min-h-0 HERE to fix flexbox bug) */}
           {showEpisodeList && (
-            <div className={`w-full lg:w-96 flex flex-col flex-shrink-0 lg:border-l lg:h-full lg:overflow-hidden
+            <div className={`w-full lg:w-96 flex flex-col flex-shrink-0 lg:border-l lg:min-h-0
               ${dark ? 'border-cyan-500/20 bg-[#09090f]' : 'border-gray-200 bg-gray-50'}`}>
 
               {/* Season Selector & View Toggle */}
@@ -266,10 +266,10 @@ export default function VideoPlayer({
                 </div>
               </div>
 
-              {/* Episode List Area */}
-              <div className="flex-none lg:flex-1 lg:overflow-y-auto lg:min-h-0 pb-6 lg:pb-0" style={{ scrollbarWidth: 'thin' }}>
+              {/* Episode List Area (Scrolls correctly now!) */}
+              <div className="lg:flex-1 lg:overflow-y-auto lg:min-h-0 pb-6 lg:pb-0" style={{ scrollbarWidth: 'thin' }}>
                 
-                {/* ONE THUMBNAIL PER ROW: Changed from grid-cols-2 to flex-col */}
+                {/* ONE THUMBNAIL PER ROW */}
                 <div className={`p-3 ${viewMode === 'grid' ? 'flex flex-col gap-4' : 'space-y-1'}`}>
                   {activeSeason.episodes.map((episode, idx) => {
                     const isActive = episode.id === activeEpisode.id;
@@ -279,15 +279,13 @@ export default function VideoPlayer({
                         <button
                           key={episode.id}
                           onClick={() => handleEpisodeChange(episode)}
-                          className={`relative flex flex-col rounded-xl overflow-hidden text-left transition-all group border
+                          className={`relative flex flex-col rounded-xl overflow-hidden text-left transition-all group border flex-shrink-0
                             ${isActive 
                               ? dark ? 'border-cyan-500 shadow-[0_0_15px_rgba(0,212,255,0.2)]' : 'border-blue-500 shadow-md ring-2 ring-blue-500/20' 
                               : dark ? 'border-gray-800 hover:border-cyan-500/50' : 'border-gray-200 hover:border-blue-300'}`}
                         >
-                          {/* aspect-video enforces the 16:9 landscape format */}
                           <div className="relative aspect-video w-full bg-black">
                             <img 
-                              // Loads the individual episode link here seamlessly
                               src={episode.thumbnail || thumbnail} 
                               alt={episode.title} 
                               className={`w-full h-full object-cover transition-opacity ${isActive ? 'opacity-100' : 'opacity-70 group-hover:opacity-100'}`}
@@ -319,7 +317,7 @@ export default function VideoPlayer({
                       <button
                         key={episode.id}
                         onClick={() => handleEpisodeChange(episode)}
-                        className={`w-full text-left px-3 py-2.5 rounded-xl transition-all border cursor-pointer select-none group
+                        className={`w-full text-left px-3 py-2.5 rounded-xl transition-all border cursor-pointer select-none group flex-shrink-0
                           ${isActive
                             ? dark
                               ? 'bg-gradient-to-r from-cyan-500/20 to-purple-500/20 border-cyan-500/40 shadow-[0_0_15px_rgba(0,212,255,0.1)]'
