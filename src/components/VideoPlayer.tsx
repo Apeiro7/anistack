@@ -133,14 +133,14 @@ export default function VideoPlayer({
           </div>
         </div>
 
-        {/* Content Body - SCROLL FIX APPLIED HERE */}
+        {/* Content Body */}
         <div className="flex flex-col lg:flex-row flex-1 min-h-0 overflow-y-auto lg:overflow-hidden">
           
           {/* Left Column: Video Area & Description */}
-          <div className="flex flex-col flex-none lg:flex-1 lg:min-w-0 lg:overflow-y-auto pb-4 lg:pb-0" style={{ scrollbarWidth: 'thin' }}>
+          <div className="flex flex-col flex-none lg:flex-1 lg:min-w-0 lg:overflow-y-auto pb-4 lg:pb-0">
             
             {/* Video Player */}
-            <div className="w-full bg-black flex-shrink-0 flex items-center justify-center overflow-hidden aspect-video lg:aspect-auto lg:h-[45vh] xl:h-[55vh]">
+            <div className="w-full bg-black flex-shrink-0 aspect-video sm:max-h-[60vh] lg:max-h-[65vh]">
               <iframe
                 key={activeEpisode.id}
                 src={activeEpisode.embedUrl}
@@ -219,7 +219,7 @@ export default function VideoPlayer({
 
           {/* Right Column: Episode List Sidebar */}
           {showEpisodeList && (
-            <div className={`w-full lg:w-80 flex flex-col flex-none lg:flex-shrink-0 lg:border-l lg:h-full lg:overflow-hidden
+            <div className={`w-full lg:w-80 flex flex-col flex-shrink-0 lg:border-l
               ${dark ? 'border-cyan-500/20 bg-[#09090f]' : 'border-gray-200 bg-gray-50'}`}>
 
               {/* Season Selector & View Toggle */}
