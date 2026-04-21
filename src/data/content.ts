@@ -602,4 +602,5 @@ export const linksData: Link[] = [
   { id: 'l12', name: 'Crunchyroll', description: 'The world\'s most popular anime streaming service.', url: 'https://crunchyroll.com', icon: 'https://cdn.simpleicons.org/crunchyroll/F47521', category: 'Anime' },
   { id: 'l13', name: 'MoviesMod', description: 'Download the latest Hollywood and Bollywood movies in various resolutions including 480p, 720p, and 1080p and 4K, choose from list below.', url: 'https://modlist.in/', icon: 'https://modlist.in/favicont.png', category: 'Movies' },
   { id: 'l16', name: 'ProtonMovies', description: 'Welcome to ProtonMovies – Your All-in-One Entertainment Gateway', url: 'http://protonmovies.com/', icon: 'https://static.protonmovies.link/favicon.ico', category: 'Movies' },
+  { id: 'l17', name: 'BollyFlix', description: 'Welcome to BollyFlix. ', url: 'https://bollyflix.to/', icon: 'https://bollyflixcdn.site/wp-content/uploads/2023/05/Bollyflix-movies.png', category: 'Movies' },
 ];
