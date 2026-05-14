@@ -164,6 +164,16 @@ export const softwareData: Software[] = [
     url: 'https://postman.com',
     tags: ['api', 'testing', 'development'],
   },
+  {
+    id: 'sw9',
+    name: 'Delhi IAS Academy',
+    description: 'Delhi IAS Academy Pre - Installed Software.',
+    category: 'Learning',
+    icon: 'https://delhiias.com/images/logo.png',
+    url: 'https://ln5.sync.com/dl/7d993b550#vaundv2e-guezf3ac-whcfaage-w4kjkvj7',
+    tags: ['DIA', 'CGPSC', 'Bilaspur'],
+    featured: true,
+  },
 ];
 
 // VIDEOS DATA
