@@ -444,91 +444,91 @@ export const animeData: AnimeEntry[] = [
             id: 'e1',
             title: 'Ben 10 Returns, Part 1',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9qdjJid1lkV1kifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9DSUNRNmdCcTkifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/467/01.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/467/01.webp',
             duration: '24:00'
           },
           {
             id: 'e2',
             title: 'Ben 10 Returns, Part 2',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9Ed1VPUk5uYVAifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC81UmJDTExYWTEifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/467/02.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/467/02.webp',
             duration: '24:00'
           },
           {
             id: 'e3',
             title: 'Everybody Talks About the Weather',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC95OW1pSHQ4ZmEifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9mZlpxZVYwMUcifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/467/03.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/467/03.webp',
             duration: '24:00'
           },
           {
             id: 'e4',
             title: 'Kevins Big Score',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9VWVpEQ3J1TWMifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9JVEs3UFI1WG8ifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/467/04.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/467/04.webp',
             duration: '24:00'
           },
           {
             id: 'e5',
             title: 'All That Glitters',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9uaWJibnJSNTEifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9VUlV0djlNMWkifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/467/05.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/467/05.webp',
             duration: '24:00'
           },
           {
             id: 'e6',
             title: 'Max Out',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9oWGlfNE1aa2QifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9neFExQm1NU2RaIn1d',
-            thumbnail: 'https://img.watchanimeworld.in/images/467/06.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/467/06.webp',
             duration: '24:00'
           },
           {
             id: 'e7',
             title: 'Pier Pressure',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9ya1Ezbk4yLU4ifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9TM3RfY0RHN2wifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/467/07.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/467/07.webp',
             duration: '24:00'
           },
           {
             id: 'e8',
             title: 'What Are Little Girls Made Of?',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9yV3FZX1JfZzgifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC84MTdTaVVfckIifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/467/08.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/467/08.webp',
             duration: '24:00'
           },
           {
             id: 'e9',
             title: 'The Gauntlet',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9JZUdTZlhDNHQifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC8yV2FCc3hUUVEifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/467/09.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/467/09.webp',
             duration: '24:00'
           },
           {
             id: 'e10',
             title: 'Paradox',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9xcldfaklaa3gifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9oendScXQxNksifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/467/10.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/467/10.webp',
             duration: '24:00'
           },
           {
             id: 'e11',
             title: 'Be-Knighted',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9KeG1PNzQzNkIifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9EeWdVdFJjbmwifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/467/11.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/467/11.webp',
             duration: '24:00'
           },
           {
             id: 'e12',
             title: 'Plumbers Helpers',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC8wdFVGMXBXV3YifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC90aHYxd1dISUsifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/467/12.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/467/12.webp',
             duration: '24:00'
           },
           {
             id: 'e13',
             title: 'X = Ben + 2',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9VUFp3dUVrVGgifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9LWEUwSnZaeTJfIn1d',
-            thumbnail: 'https://img.watchanimeworld.in/images/467/13.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/467/13.webp',
             duration: '24:00'
           },
         ],
@@ -543,91 +543,91 @@ export const animeData: AnimeEntry[] = [
             id: 'e1',
             title: 'Darkstar Rising',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9lQnQ5SlpDX1QifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9LMC0xNnAxOHQifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/469/01.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/469/01.webp',
             duration: '24:00'
           },
           {
             id: 'e2',
             title: 'Alone Together',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC94QVBFeVNQelkifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9nS3V3cVYtU18ifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/469/02.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/469/02.webp',
             duration: '24:00'
           },
           {
             id: 'e3',
             title: 'Good Copy, Bad Copy',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9IWngzUEVKYlAifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9QZDMweTVaWVkifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/469/03.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/469/03.webp',
             duration: '24:00'
           },
           {
             id: 'e4',
             title: 'Save the Last Dance',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9iQm9QSTZtOUkifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9TRlBJdjR0V2cifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/469/04.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/469/04.webp',
             duration: '24:00'
           },
           {
             id: 'e5',
             title: 'Undercover',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC85ZUg5TDhJLXgifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC84eU1EZTNnUDQifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/469/05.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/469/05.webp',
             duration: '24:00'
           },
           {
             id: 'e6',
             title: 'Pet Project',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9ZQXkyX2Jsd0oifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9KOG9LSHpfUzkifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/469/06.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/469/06.webp',
             duration: '24:00'
           },
           {
             id: 'e7',
             title: 'Grounded',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9Pc1d4RmRrZUMifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9tNTFVaGZDdHMifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/469/07.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/469/07.webp',
             duration: '24:00'
           },
           {
             id: 'e8',
             title: 'Voided',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9WX3JhRHE0eUwifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9EZTE4TDdzcF8ifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/469/08.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/469/08.webp',
             duration: '24:00'
           },
           {
             id: 'e9',
             title: 'Inside Man',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9HQ2RkUl9HWngifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9TMkxsUEtScEoifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/469/09.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/469/09.webp',
             duration: '24:00'
           },
           {
             id: 'e10',
             title: 'Birds of a Feather',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9qRm40NHRla2IifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9oU0hKYlBlankifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/469/10.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/469/10.webp',
             duration: '24:00'
           },
           {
             id: 'e11',
             title: 'Unearthed',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC95MnIyNmNpdmMifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9pVDhMd1hTWE4ifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/469/11.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/469/11.webp',
             duration: '24:00'
           },
           {
             id: 'e12',
             title: 'War of the Worlds, Part 1',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC80ZzNrT04ySzcifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9jcDZjQWotaVkifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/469/12.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/469/12.webp',
             duration: '24:00'
           },
           {
             id: 'e13',
             title: 'War of the Worlds, Part 2',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC8xTVQ2YkJmTUgifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9xWUZBVXVuMEgifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/469/13.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/469/13.webp',
             duration: '24:00'
           },
         ],
@@ -642,140 +642,140 @@ export const animeData: AnimeEntry[] = [
             id: 'e1',
             title: 'Vengeance of Vilgax, Part 1',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9Sbkt1QVEtdTgifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC96MnI5Ukpvc0UifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/468/01.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/468/01.webp',
             duration: '24:00'
           },
           {
             id: 'e2',
             title: 'Vengeance of Vilgax, Part 2',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9kcGZiYlJuZXcifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC90dzNNRmtDazEifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/468/02.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/468/02.webp',
             duration: '24:00'
           },
           {
             id: 'e3',
             title: 'Inferno',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC93NnBXMkJlbEkifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC93ajMyQlRqNTkifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/468/03.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/468/03.webp',
             duration: '24:00'
           },
           {
             id: 'e4',
             title: 'Fools Gold',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC85V3M1X3BxM1c1In0seyJsYW5ndWFnZSI6IkVuZ2xpc2giLCJsaW5rIjoiaHR0cHM6XC9cL3Nob3J0LmljdVwva0l2YmZ2OEphIn1d',
-            thumbnail: 'https://img.watchanimeworld.in/images/468/04.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/468/04.webp',
             duration: '24:00'
           },
           {
             id: 'e5',
             title: 'Simple',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9VbVlNUVlpT3QifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC93VmxrQXZjek0ifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/468/05.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/468/05.webp',
             duration: '24:00'
           },
           {
             id: 'e6',
             title: 'Vreedle, Vreedle',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC92c19GZEZVX04ifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC83MXpIdEhDamNOIn1d',
-            thumbnail: 'https://img.watchanimeworld.in/images/468/06.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/468/06.webp',
             duration: '24:00'
           },
           {
             id: 'e7',
             title: 'Singlehanded',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9pQzQ0Z2V0RWUifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9BMzQ4Y0lqQmwifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/468/07.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/468/07.webp',
             duration: '24:00'
           },
           {
             id: 'e8',
             title: 'If All Else Fails',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9TSnkzMjQ0Vkg3In0seyJsYW5ndWFnZSI6IkVuZ2xpc2giLCJsaW5rIjoiaHR0cHM6XC9cL3Nob3J0LmljdVwvVWIzczByWHR0In1d',
-            thumbnail: 'https://img.watchanimeworld.in/images/468/08.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/468/08.webp',
             duration: '24:00'
           },
           {
             id: 'e9',
             title: 'In Charms Way',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9jeFI2eUxZLUgifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC8tRFdsMWZPejIifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/468/09.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/468/09.webp',
             duration: '24:00'
           },
           {
             id: 'e10',
             title: 'Ghost Town',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9MOHUyblg1cVcifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9JSFM0YmVTalIifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/468/10.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/468/10.webp',
             duration: '24:00'
           },
           {
             id: 'e11',
             title: 'Trade Off',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9ZYjB3TmY2QnoifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9KR2VOX2ZQTzcifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/468/11.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/468/11.webp',
             duration: '24:00'
           },
           {
             id: 'e12',
             title: 'Busy Box',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC85S2FCQThuQjIifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC8yWEFDSDRkQzYifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/468/12.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/468/12.webp',
             duration: '24:00'
           },
           {
             id: 'e13',
             title: 'Con of Rath',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9jNHFhaEVIMUwifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC95Y1JFX0RackMifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/468/13.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/468/13.webp',
             duration: '24:00'
           },
           {
             id: 'e14',
             title: 'Primus',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC8xRmNoVjBhOWgifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC80OHh2aUVoUkEifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/468/14.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/468/14.webp',
             duration: '24:00'
           },
           {
             id: 'e15',
             title: 'Time Heals',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC96aGk1OG5oVWcifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9kZG1KMEtvVDQifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/468/15.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/468/15.webp',
             duration: '24:00'
           },
           {
             id: 'e16',
             title: 'The Secret of Chromastone',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC8zLVhVNWVseHp3In0seyJsYW5ndWFnZSI6IkVuZ2xpc2giLCJsaW5rIjoiaHR0cHM6XC9cL3Nob3J0LmljdVwvNGctaU9Oc0pWdyJ9XQ%3D%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/468/16.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/468/16.webp',
             duration: '24:00'
           },
           {
             id: 'e17',
             title: 'Above and Beyond',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9aWWFzUkJnTjYifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9WVHZ4MTduQS0ifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/468/17.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/468/17.webp',
             duration: '24:00'
           },
           {
             id: 'e18',
             title: 'Vendetta',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9UOEhWS0VRU2cifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC80VTYyY05fNW8ifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/468/18.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/468/18.webp',
             duration: '24:00'
           },
           {
             id: 'e19',
             title: 'The Final Battle, Part 1',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC81TE5nRGxpc2YifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9yQkRsOEVhd3IifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/468/19.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/468/19.webp',
             duration: '24:00'
           },
           {
             id: 'e20',
             title: 'The Final Battle, Part 2',
             embedUrl: 'https://watchanimeworld.net/api/player1.php?data=W3sibGFuZ3VhZ2UiOiJIaW5kaSIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9fQkY2eGxXMHcifSx7Imxhbmd1YWdlIjoiRW5nbGlzaCIsImxpbmsiOiJodHRwczpcL1wvc2hvcnQuaWN1XC9ZaktxVzktUTgifV0%3D',
-            thumbnail: 'https://img.watchanimeworld.in/images/468/20.webp',
+            thumbnail: 'https://img.watchanimeworld.net/images/468/20.webp',
             duration: '24:00'
           },
         ],
