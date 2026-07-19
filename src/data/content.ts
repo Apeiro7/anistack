@@ -194,7 +194,7 @@ export const videoData: Video[] = [
         seasonNumber: 1,
         title: 'Season 1 — Origins',
         episodes: [
-          { id: 'e1', title: 'Ep 1 — The Awakening', embedUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ', duration: '24:30' },
+          { id: 'e1', title: 'Ep 1 — The Awakening', embedUrl: 'https://cr7world.pages.dev/shaka?id=TeamAPC2', duration: '24:30' },
           { id: 'e2', title: 'Ep 2 — Neon City', embedUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ', duration: '23:45' },
           { id: 'e3', title: 'Ep 3 — Chrome Hearts', embedUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ', duration: '25:10' },
         ],
